@@ -1,0 +1,9 @@
+{
+    "name": "Logstash and Local Gretel NER Integration",
+    "description": "Using logstash, we send records through the Gretel NER container and on to Elasticsearch.",
+    "tags": ["python"],
+    "sample_data_key": null,
+    "language": "python",
+    "featured": false,
+    "blog_url": null
+}
