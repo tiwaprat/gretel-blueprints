@@ -11,8 +11,6 @@ export const createStructuredData = async (
   // Use reasonable default params if not set
   params = {
     temperature: params.temperature || 0.7,
-    top_k: params.top_k || 40,
-    top_p: params.top_p || 0.9,
   };
 
   // Create stream
@@ -70,7 +68,7 @@ export const getModels = async () => {
 // Internal //
 //////////////
 const _callAPI = (url, body, method = "POST") => {
-  const BASE_URL = "https://api.gretel.cloud/";
+  const BASE_URL = "https://api-dev.gretel.cloud/";
   const req = {
     method: method,
     headers: {
